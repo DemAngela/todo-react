@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.App {
+    width: 800px;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9D8161;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 12px 21px 14px -5px rgba(19, 19, 18, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+
+.todoWrapper {
+    display: flex ;
+    gap: 15px ;
+    align-items: center;
+    padding: 15px
+}
+
+.todoInner {
+    width: 200px;
+}
+
+.btnDelete {
+    border: none;
+    padding: 5px 8px;
+    border-radius: 50%;
+    color: #4F493F;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.btnDelete:hover {
+    background-color: #7B5037;
+    color: black;
+}
+
+
+.btnEdit {
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    color: #111;
+    padding: 5px   ;
+    cursor: pointer;
+    background-color: #7B5037;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 400    ;
+
+}
+
+.checkBox {
+    cursor: pointer;
+}
+
+.addTodo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addInput {
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    width: 350px;
+    margin-bottom: 30px;
+    background-color: #E3DED1;
+    position: relative;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+.addBtn {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -30px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px ;
+    width: 100px;
+    background-color: #7B5037;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 700    ;
+    cursor: pointer;
+}
+
+.editInput {
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+    background-color: #E3DED1;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.todoTitle {
+    font-family: 'Edu TAS Beginner', cursive;
+}
